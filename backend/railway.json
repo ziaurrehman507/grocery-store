@@ -1,1 +1,10 @@
-
+{
+  "build": {
+    "builder": "nixpacks"
+  },
+  "deploy": {
+    "rootDirectory": "backend",
+    "startCommand": "npm start",
+    "buildCommand": "npm install"
+  }
+}
